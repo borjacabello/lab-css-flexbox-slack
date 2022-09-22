@@ -8,3 +8,522 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    box-sizing: border-box;
+    /* border: solid 1px black; */
+}
+
+
+/* ---------------------- BODY ------------------- */
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ---------------------- NAVBAR ------------------*/
+#nav-bar {
+    background-color: #540B51;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* flex-flow: row wrap; */
+    justify-content: space-between;
+}
+
+#nav-div-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    height: 100%;
+}
+
+#nav-div-two {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+#nav-div-two button {
+    padding: 0;
+    border: 0;
+    background-color: transparent
+}
+
+#nav-div-two img {
+    width: 32px;
+}
+
+#nav-ul-one {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-left: 0;
+    width: 350px
+}
+
+#nav-slack-logo {
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.white-li {
+    list-style-type: none;
+}
+
+.white-li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ---------------------- HEADER ------------------*/
+#header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    background-color: #540B51;
+}
+
+#header-div-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+    height: 50%;
+    width: 100%;
+}
+
+#header-section h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 120px;
+    width: 80%;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+
+#header-paragraph {
+    text-align: center;
+    color: white;
+    height: 28px;
+    font-size: 22px;
+}
+
+#yellow-span {
+    color: #ECB12F;
+}
+
+#header-div-two {
+    height: 50%;
+    width: 100%;
+}
+
+#header-div-two img {
+    width: 100%;
+    height: auto;
+}
+
+#sign-up-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#sign-up-button {
+    height: 40%;
+    width: 80%;
+    padding: 0;
+    font-size: 24px;
+    color:#540B51;
+    border-radius: 7px;
+}
+
+#google-button {
+    background-color: #4285F4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 40%;
+    padding: 0;
+    color:white;
+    border-radius: 7px;
+}
+
+#google-button img {
+    width: 40px;
+    height: 80%;
+    margin-left: 20px;
+    background-color: white;
+}
+
+#google-button span {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    font-size: 24px;
+    width: 70%;
+    border: none;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* -------------- COMPANIES LOGO SECTION ------------------*/
+
+#companies-logo-section {
+    background-color: #F3EAE2;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    height: 300px;
+    width: 100%;
+}
+
+#companies-logo-section p {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+#company-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#company-logos img {
+    height: auto;
+    width: 100px;
+}
+
+
+/* -------------- connectednes-section ------------------*/
+
+.connectednes-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70vh;
+}
+
+.connectednes-section-div-one {
+    height: 50%;
+    width: 100%;
+}
+
+.connectednes-section-div-one img {
+    width: 100%;
+    height: 100%;
+}
+
+.connectednes-section-div-two {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    background-color: #F3EAE2;
+    height: 50%;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.connectednes-section-div-two p {
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.connectednes-section-div-two a {
+    text-decoration: none;
+    color: #2E71A6;
+}
+
+
+/* -------------- work-section ------------------*/
+.connectednes-section-div-three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    background-color: #F3EAE2;
+    height: 50%;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.connectednes-section-div-three p {
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.connectednes-section-div-three a {
+    text-decoration: none;
+    color: #2E71A6;
+}
+
+
+
+/* -------------- speed-mobile-section ------------------*/
+#speed-mobile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+}
+
+#speed-mobile-section img {
+    width: 20px;
+    height: 50px;
+}
+
+
+
+/* ---------- last section ----------- */
+#last-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 75vh;
+    background-color: white;
+}
+
+#last-section h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #191817;
+
+}
+
+#subtitle {
+    width: 80%;
+    text-align: center;
+    font-size: 24px;
+}
+
+#final-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 200px;
+    gap: 10px;
+}
+
+#purple-button {
+    width: 100%;
+    height: 50%;
+    border: none;
+    font-size: 20px;
+    background-color: #540B51;
+    color: white;
+}
+
+#white-button {
+    width: 100%;
+    height: 50%;
+    border: solid 1px #540B51;
+    background-color: white;
+    font-size: 20px;
+    color: #540B51;
+}
+
+#last-section ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+#last-section ul li {
+    width: 100%;
+}
+
+#last-section ul span {
+    font-size: 35px;
+    color: #540B51;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+
+/* ----------- welcome-section ----------- */
+#welcome-section {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #540B51;
+}
+
+#welcome-section h3 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin: 0 auto;
+}
+
+#sales-button {
+    width: 80%;
+    height: 20%;
+    border: solid 1px white;
+    font-size: 25px;
+    background-color: #540B51;
+    color: white;
+}
+
+#free-button {
+    width: 80%;
+    height: 20%;
+    border: solid 1px white;
+    font-size: 25px;
+    background-color: white;
+    color: #540B51;
+}
+
+
+
+/* ------- footer -------- */
+footer {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+footer img {
+    width: 70px;
+}
+
+#footer-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.columns {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bolder {
+    font-size: 25px;
+    font-weight: 0.8;
+}
+
+#points {
+    list-style-type: none;
+    padding-left: 35px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+#icons {
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0 20px 10px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    #nav-bar {
+        position: fixed;
+    }
+
+    #nav-bar ul {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #nav-bar {
+        position: fixed;
+    }
+
+    #nav-bar ul {
+        display: none;
+    }
+
+    #header-section {
+        flex-direction: row;
+    }
+
+    #final-buttons {
+        flex-direction: row;
+    }
+
+    #last-section ul {
+        flex-direction: row;
+    }
+
+    #points {
+        flex-direction: row;
+    }
+
+}
+
+/* No me da tiempo ya a seguir haciéndolo responsive, quedan secciones separadas... */
